@@ -1,0 +1,2 @@
+This project is a flask server application that gathers data from a specified website and processes it using a Kafka producer-consumer model. The scraped data is stored in a SQLite database, accessible by a Flask server which exposes a RESTful API, allowing users to easily access and interact with the data. The entire application is containerized with Docker, enabling smooth deployment and management in various environments.
+
